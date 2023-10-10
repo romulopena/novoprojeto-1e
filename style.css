@@ -1,3 +1,12 @@
-img{
+#imagem1{
     width: 400px; 
+    
+}
+
+#titulo2{
+    color: white;
+}
+
+.textos{
+    color: yellow;
 }
