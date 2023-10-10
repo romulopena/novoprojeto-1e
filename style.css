@@ -10,3 +10,15 @@
 .textos{
     color: yellow;
 }
+
+.titulo3{
+    color: red;
+}
+
+#lista-sem-ordem{
+    color: green;
+}
+
+#lista-com-ordem{
+    color: blue;
+}
