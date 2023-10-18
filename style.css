@@ -1,3 +1,6 @@
+body{
+    background-color: green;
+}
 #imagem1{
     width: 400px; 
     
@@ -7,16 +10,12 @@
     color: white;
 }
 
-.textos{
-    color: yellow;
-}
-
 .titulo3{
     color: red;
 }
 
 #lista-sem-ordem{
-    color: green;
+    color: black
 }
 
 #lista-com-ordem{
