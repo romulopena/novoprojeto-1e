@@ -6,33 +6,39 @@
     </head>
 
     <body>  <!--corpo visível-->
-        <img id="imagem1" src="parana.png" alt="bandeira do Paraná">
-        <h1>Estado do Paraná</h1>
-        
-        <h2 id="titulo2">Estado do Sul do Brasil</h2>
-        <p class="textos">Está localizado ao norte da região Sul, 
-            da qual é o único estado a fazer divisa com outras regiões. </p> <!--Primeiro--->
-        <p class="textos">Com uma população de 10,4 milhões de habitantes, 
-            é o quinto estado mais populoso do Brasil.[2] Sua capital é Curitiba</p> <!--Segundo-traçado-->
-        <p class="textos">A espécie predominante na vegetação é a Araucaria angustifolia. Os ramos 
-            dessa árvore aparecem na bandeira e no brasão, símbolos adotados em 1947.</p> <!--Terceiro-Sublinhado-->
-        
-            <div> <!--divisão de conteúdo - tag semântica-->
-            <h3 class="titulo3">Lista dos planaltos do Paraná</h3>
-            <ul id="lista-sem-ordem"> <!--Lista não ordenada(unordered list)-->
-                <li>Planalto de Guarapuava</li> <!--item da lista(list item)-->
-                <li>Planalto de Ponta Grossa</li>
-                <li>Planalto de Curitiba</li>
-                <li>Baixada litorânea</li>
-            </ul>
+        <header> <!--CABEÇALHO VISÍVEL-->
+            <img id="imagem1" src="parana.png" alt="bandeira do Paraná">
+            <h1>Estado do Paraná</h1> 
+        </header>
+
+        <main> <!--CONTEÚDO PRINCIPAL-->
+            <div> <!--DIVISÃO DE CONTEÚDO-->    
+                <h2 id="titulo2">Estado do Sul do Brasil</h2>
+                <p class="textos">Está localizado ao norte da região Sul, 
+                    da qual é o único estado a fazer divisa com outras regiões. </p> 
+                <p class="textos">Com uma população de 10,4 milhões de habitantes, 
+                    é o quinto estado mais populoso do Brasil.[2] Sua capital é Curitiba</p>
+                <p class="textos">A espécie predominante na vegetação é a Araucaria angustifolia. Os ramos 
+                    dessa árvore aparecem na bandeira e no brasão, símbolos adotados em 1947.</p> 
+            </div> <!--FECHAMENTO DA PRIMEIRA DIV-->
+
+            <div> <!--SEGUNDA DIV-->
+                <h3 class="titulo3">Lista da população dos últimos censos</h3>
+                <ol id="lista-com-ordem"><!--Lista ordenada(ordered list)-->
+                    <li>1991 - 8 Milhões Habitantes</li> <!--item da lista(list item)-->
+                    <li>2000 - 9 Milhões Habitantes</li>
+                    <li>2010 - 10 Milhões Habitantes</li>
+                </ol>
+            </div> <!--FECHAMENTO SEGUNDA DIV-->
             
-            <h3 class="titulo3">Lista da população dos últimos censos</h3>
-            <ol id="lista-com-ordem"><!--Lista ordenada(ordered list)-->
-                <li>1991 - 8 Milhões Habitantes</li> <!--item da lista(list item)-->
-                <li>2000 - 9 Milhões Habitantes</li>
-                <li>2010 - 10 Milhões Habitantes</li>
-            </ol>
-        </div>
+        </main> <!--FECHAMENTO DO CONTEÚDO PRINCIPAL-->
+
+        <footer>
+            <h3>Todos os direitos reservados</h3>
+        </footer>
+
+        
+      
     </body>
 
 
