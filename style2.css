@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: goldenrod;
+    color: blue;
+    text-align: center;
+    border: 8px;
+    border-color: red;
+    border-style: double;
+}
+
+#github-icone{
+    width: 400px;
+}
