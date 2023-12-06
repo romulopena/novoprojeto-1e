@@ -1,23 +1,12 @@
-body{
-    background-color: green;
-}
-#imagem1{
-    width: 400px; 
+.corpo{
+    background-color: ;
+    color: orange;
+    border: 1cm;
+    border-radius: 5px;
+    border-style: groove;
     
 }
 
-#titulo2{
-    color: white;
-}
+img{
 
-.titulo3{
-    color: red;
-}
-
-#lista-sem-ordem{
-    color: black
-}
-
-#lista-com-ordem{
-    color: blue;
 }
