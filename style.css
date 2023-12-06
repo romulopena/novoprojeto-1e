@@ -1,12 +1,9 @@
 .corpo{
-    background-color: skyblue;
-    color: orange;
-    border: 1cm;
-    border-radius: 5px;
-    border-style: groove;
-    
-}
-
-img{
-
+    background-color: chartreuse;
+    text-align: center;
+    color: red;
+    border: 2cm;
+    cor da borda: azul;
+    estilo da borda: dupla;
+    raio da borda: 15px;
 }
